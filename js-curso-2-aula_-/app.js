@@ -31,7 +31,7 @@ function exibirTextoNaTela(tag, texto) {
   responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
-exibirTextoNaTela("h1", "jogo da massa");
+exibirTextoNaTela("h1", "Adivinhe o número secreto");
 exibirTextoNaTela("p", "escolha um número de 1 e 10");
 
 function gerarNumeroAleatorio() {
